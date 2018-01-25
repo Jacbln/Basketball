@@ -8,3 +8,10 @@ function myFunction() {
 }
 
 document.addEventListener("scroll", myFunction);
+
+function del() {
+  var containers = document.getElementsByClassName("container");
+  for(index in containers) {
+    containers[index].className = containers[index].className + " hide-images";
+  }
+}
