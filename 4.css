@@ -1,0 +1,74 @@
+.flex-container {
+
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+@-webkit-keyframes fade-in {
+  from {opacity: 0.25;}
+  to {opacity: 1;}
+}
+
+@keyframes scale-out {
+  0% {transform: scale(1)}
+  70% {transform: scale(1.2)}
+  100% {transform: scale(1)}
+}
+
+.image {
+  opacity: 0.25;
+  min-width: 200px;
+  max-width: 250px;
+  width: auto;
+  height: 150px;
+  diplay: flex;
+}
+
+.container.fade-in .image {
+  animation: fade-in 2s linear forwards;
+}
+
+.container1 {
+          background-color: black;
+          height: 100vh;
+}
+.container2 {
+          background-image:url('clogo3.jpg');
+          padding-bottom: 20px
+}
+
+.round {
+  margin: 10px;
+}
+
+.logo {
+  flex: 1 100%;
+  text-align: center;
+}
+
+.container.fade-in .logo {
+  animation: scale-out 2s ease-in forwards;
+}
+
+.player{
+  flex: 1;
+}
+
+.container3 {
+          background-image: url('cellogo3.jpg');
+}
+
+.container4 {
+          background-color: #cc0000;
+}
+
+.container5 {
+          background-color: #0066cc;
+}
+
+.container {
+      border-top: 3px solid lightgrey;
+      padding-bottom: 20px
+}
