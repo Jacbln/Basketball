@@ -17,6 +17,10 @@
   100% {transform: scale(1)}
 }
 
+.body {
+  background-color:black;
+}
+
 .image {
   opacity: 0.25;
   min-width: 200px;
@@ -81,7 +85,6 @@
     color: #FFF;
     padding: 4px;
     width: 100px;
-    height: 50px;
     text-align: center;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
@@ -117,4 +120,11 @@
 
 .container.hide-images .image{
   animation: hide-images 2s linear forwards;
+}
+
+.inputfelder {
+  margin: 5px;
+}
+.form {
+  margin: 5px;
 }

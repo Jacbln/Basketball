@@ -39,30 +39,25 @@
   </div>
 </div>
 
-<div class="container2 container">
-  <div class="flex-container">
-    <div class="logo"><img src="clogo2.jpg" class="round image hover-opacity-off"></div>
-    <img src="isaiah.jpg" class="round image player hover-opacity-off">
-    <img src="james.jpg" class="round image player hover-opacity-off">
-    <img src="kevin.jpeg" class="round image player hover-opacity-off">
-    <img src="JR.jpg" class="round image player hover-opacity-off">
-    <img src="Tristan.jpg" class="round image player hover-opacity-off">
-  </div>
-</div>
+<form class="inputfelder">
+  <label class="form" for="vname">Vorname und Zuname:
+    <input id="vname" name="vname">
+  </label>
 
+  <br>
 
-<div class="container3 container">
-  <div class="flex-container">
-    <div class="logo"><img src="cellogo.jpg" class="round image hover-opacity-off"></div>
-    <img src="kyrie.jpg" class="round image player hover-opacity-off">
-    <img src="brown.jpg" class="round image player hover-opacity-off">
-    <img src="tatum.jpg" class="round image player hover-opacity-off">
-    <img src="al.jpg" class="round image player hover-opacity-off">
-    <img src="marcus.jpg" class="round image player hover-opacity-off">
-  </div>
-</div>
+  <label class="form" for="männl">männlich</label>
+  <input type="radio" id="männl" name="geschlecht" value="0">
+  <br>
+  <label class="form"  for="weibl">weiblich</label>
+  <input type="radio" id="weibl" name="geschlecht" value="1">
+  <br>
 
-<script src="1.js"></script>
+  <label class="form" for="alter">über 18:</label>
+  <input type="checkbox" id="alter" name="alter">
+<br>
+  <input type="submit" value="senden">
+</form>
 
 
 
