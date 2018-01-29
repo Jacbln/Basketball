@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="2.css">
     <link rel="stylesheet" href="3.css">
     <link rel="stylesheet" href="4.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 
     <title>Basketball</title>
@@ -39,24 +40,55 @@
   </div>
 </div>
 
-<form class="form" accept-charset="UTF-8" action="https://formkeep.com/f/f9d9a9e7fee7" target="none" method="POST">
-  <label for="vname">Vorname und Zuname:
-    <input id="vname" name="vname">
-  </label>
-  <br>
-  <label for="männl">Männlich</label>
-  <input type="radio" id="männl" name="geschlecht" value="Männlich">
-  <br>
-  <label for="weibl">Weiblich</label>
-  <input type="radio" id="weibl" name="geschlecht" value="Weiblich">
-  <br>
-
-<label for="meinung">Meinung zur Webseite:</label>
-<textarea id="meinung" name="meinung"></textarea>
-
-
-  <input type="submit" value="senden">
+<div class="container7">
+<form accept-charset="UTF-8" action="https://formkeep.com/f/f9d9a9e7fee7" method="POST">
+  <div class="form-group row">
+    <label for="inputEmail3" class="col-sm-2 col-form-label">Vorname</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="Vorname" placeholder="Email">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="inputPassword3" class="col-sm-2 col-form-label">Nachname</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="Nachname" placeholder="Password">
+    </div>
+  </div>
+  <fieldset class="form-group">
+    <div class="row">
+      <legend class="col-form-label col-sm-2 pt-0">Geschlecht</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="Männlich" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            Männlich
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="Weiblich" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            Weiblich
+          </label>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+  <div class="form-group">
+   <label for="exampleFormControlTextarea1">Meinung zur Webseite</label>
+   <textarea class="form-control meinungg" id="Meinung" rows="3"></textarea>
+   <div class="form-group row">
+     <div class="col-sm-10">
+       <button type="submit" class="btn btn-primary">Sign in</button>
+     </div>
+   </div>
+ </div>
 </form>
+</div class="container7">
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>

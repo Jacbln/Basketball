@@ -122,6 +122,10 @@
   animation: hide-images 2s linear forwards;
 }
 
+.container7 {
+  margin: 10px;
+}
+
 .inputfelder {
   margin: 5px;
 }
@@ -135,7 +139,9 @@
 
 }
 
-.meinung {}
+.meinungg {
+  margin-bottom: 7px;
+}
 
 .meinung {
   vertical-align: top;
