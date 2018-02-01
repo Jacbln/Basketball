@@ -41,24 +41,30 @@
 </div>
 
 <div class="container7">
-<form accept-charset="UTF-8" method="POST" action="https://formkeep.com/f/f9d9a9e7fee7">
+<form accept-charset="UTF-8" method="POST" action="https://formkeep.com/f/0bf618430d00">
 <input type="hidden" name="utf8" value="✓">
   <div class="form-group row">
     <label for="vrname" class="col-sm-2 col-form-label">Vorname</label>
     <div class="col-sm-10">
-      <input type="text" class="inputt form-control" id="Vorname" placeholder="Vorname" autocomplete="off" pattern="[A-Za-z]{3, }">
+      <input type="text" name="vorname" class="inputt form-control" id="Vorname" placeholder="Vorname" required autocomplete="off" pattern="[A-Za-z]{3, }">
     </div>
   </div>
   <div class="form-group row">
     <label for="nchname" class="col-sm-2 col-form-label">Nachname</label>
     <div class="col-sm-10">
-      <input type="text" class="inputt form-control" id="Nachname" placeholder="Nachname" autocomplete="off" pattern="[A-Za-z]{3, }">
+      <input type="text" name="Nachname"class="inputt form-control" id="Nachname" placeholder="Nachname" autocomplete="off" required pattern="[A-Za-z]{3, }">
     </div>
   </div>
   <div class="form-group row">
-    <label for="nchname" class="col-sm-2 col-form-label"><Nachname>Email</Nachname></label>
+    <label for="Email" class="col-sm-2 col-form-label"><Nachname>Email</Nachname></label>
     <div class="col-sm-10">
-      <input type="email" class="inputt form-control" id="email" placeholder="email" autocomplete="off" pattern="^.*@{1,1}.*$">
+      <input type="email" name="Email" class="inputt form-control" id="email" placeholder="email" autocomplete="off" pattern="^[a-zA-Z]\S*@{1,1}\S*\.[a-zA-Z]{2,3}$">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="alter" class="col-sm-2 col-form-label"><Nachname>Alter</Nachname></label>
+    <div class="col-sm-2">
+      <input type="number" name="Alter" class="inputt form-control" min="0" placeholder="z.B. 15">
     </div>
   </div>
   <fieldset class="form-group">
@@ -82,7 +88,7 @@
   </fieldset>
   <div class="form-group">
    <label for="meinung">Meinung zur Webseite</label>
-   <textarea class="inputt form-control meinungg" id="Meinung" rows="3" required></textarea>
+   <textarea class="inputt form-control meinungg" name="Meinung"id="Meinung" rows="3" required></textarea>
    <div class="form-group row">
      <div class="col-sm-10">
        <button type="submit" class="btn btn-primary">Absenden</button>
@@ -99,3 +105,33 @@
 
 </body>
 </html>
+
+
+<!-- <select class="custom-select mr-sm-2" name="Alter" id="inlineFormCustomSelect">
+  <option selected>Wählen sie ihr Alter</option>
+  <option value="1">5</option>
+  <option value="2">6</option>
+  <option value="3">7</option>
+  <option value="3">8</option>
+  <option value="3">9</option>
+  <option value="3">10</option>
+  <option value="3">11</option>
+  <option value="3">12</option>
+  <option value="3">13</option>
+  <option value="3">14</option>
+  <option value="3">15</option>
+  <option value="3">16</option>
+  <option value="3">17</option>
+  <option value="3">19</option>
+  <option value="3">20</option>
+  <option value="3">21</option>
+  <option value="3">22</option>
+  <option value="3">23</option>
+  <option value="3">24</option>
+  <option value="3">25</option>
+  <option value="3">26</option>
+  <option value="3">27</option>
+  <option value="3">28</option>
+  <option value="3">29</option>
+  <option value="3">30</option>
+</select> -->
